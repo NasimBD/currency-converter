@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  text-align: center;
+  color: rgb(83, 76, 129);
+  margin: 1rem auto;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(175, 175, 247);
+  max-width: 40rem;
+  font-size: 0.8rem;
+}
+
+em{
+  color: rgb(196, 40, 40);
+}
+
+strong{
+  color:rgb(47, 47, 116);
+}
+
+.container{
+  background-color: rgb(247, 247, 126);
+  background-image: radial-gradient(18rem at 90% 20%, pink, transparent), radial-gradient(18rem at 10% 30%, rgb(129, 233, 236), transparent), radial-gradient(20rem at 40% 80%, rgb(123, 224, 119), transparent), radial-gradient(15rem at 70% 80%, rgb(243, 138, 52), transparent);
+  height: 100vh;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+}
+
+.form-group{
+  margin: 1rem auto;
+}
+
+.form-control{
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 0.4rem;
+  padding: 0.3rem;
+  color:rgb(71, 71, 71);
+  margin-right: 0.1rem;
+}
+
+.form-control:focus{
+  outline: 1px solid rgb(104, 103, 103);
+}
